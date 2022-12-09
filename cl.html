@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cl.css">
+</head>
+<body>
+
+    <div id="clock">
+        <p>Uakytyndy bagala:)</p>
+    </div>
+    <script>
+        window.onload = function() {
+            window.setInterval(function() {
+                var date = new Date();
+    
+                var hours = date.getHours();
+                var minutes = date.getMinutes();
+                var seconds = date.getSeconds();
+
+                if (hours < 10) hours = "0" + hours;
+                if (hours < 10) hours = "0" + minutes;
+                if (hours < 10) hours = "0" + seconds;
+    
+                var clock = hours + ":" + minutes + ":" + seconds;
+                document.getElementById("clock").innerHTML = clock;
+            }, 1000);
+        };
+    </script>
+    
+</body>
+</html>

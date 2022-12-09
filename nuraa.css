@@ -1,0 +1,30 @@
+body{
+    background: rgb(20, 20, 32);
+    background-attachment: fixed;
+}
+.nura{
+    width: 1400px;
+    margin: auto;
+    padding: 15px 20px;
+	background: rgba(139, 139, 139, 0.3);
+	margin-bottom: 20px;
+	border-radius: 20px;
+}
+.cont1{
+    width: 500px;
+    padding-top: 0px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    margin: auto;
+    border-radius: 400px;
+    box-shadow: 100% black;
+    display: flex;
+}
+.cont2{
+    max-height: 600px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: rgb(231, 226, 209);
+    font-size: 7em;
+  
+}

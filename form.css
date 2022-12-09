@@ -1,0 +1,53 @@
+body{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: center;
+    background: rgb(20, 20, 32);
+    background-attachment: fixed;
+}
+
+.login {
+    width: 1000px;
+    margin: auto;    
+}
+p{
+    text-align: left;
+    padding: 0px 15px 0px 15px;
+}
+
+.forma {
+    width: 300px;
+    height: 400px;
+    background-color:rgb(231, 226, 209);
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -100px;
+
+}
+
+.forma input[type="text"],
+.forma input[type="password"],
+.forma input[type="submit"] {
+    background: none;
+    color: black;
+    font-size: 16px;
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+    border: 2px solid rgb(20, 20, 32);
+    outline: none;
+    transition: .3s;
+    border-radius: 8px;
+}
+
+.forma input[type="submit"]:hover {
+    border-color: rgb(255, 255, 255);
+    background: rgb(232, 236, 223);
+    color: black;
+    cursor: pointer;
+    align-content: center;
+    align-items: center;
+}

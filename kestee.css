@@ -1,0 +1,19 @@
+body {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: center;
+    background: rgb(255, 255, 255) url(fon11.jpg) repeat-y;
+    background-attachment: fixed;
+    
+}
+
+tr {
+width: 150px;
+height: 50px;
+border-radius: 20px;
+}
+
+td {
+text-align: center;
+border-radius: 10px;
+background: rgba(205, 214, 219, 0.3);
+}

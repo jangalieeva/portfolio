@@ -1,0 +1,13 @@
+body{
+    background: rgb(20, 20, 32);
+    background-attachment: fixed;
+}
+.p {
+    font-size: 20px;
+}
+#clock {
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 20vh;
+    text-align: center;
+}
